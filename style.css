@@ -1,0 +1,117 @@
+header {
+    display: block;
+    position: relative;
+  }
+  .nav-left {
+    display: flex;
+  }
+  .nav-left a {
+    margin: 20px;
+    font-family: Arial;
+  }
+  .nav-right {
+    display: flex;
+  
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }
+  .nav-right a {
+    font-family: Arial;
+    margin: 20px;
+  }
+  #sign {
+    margin: 0 10px 0 0;
+      font-weight: bold;
+      text-decoration: none;
+      border: 1px solid #4285f4;
+      color: #fff;
+      outline: none;
+      border-radius: 2px;
+      padding: 1px 8px 8px 8px;
+      background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    cursor:pointer;
+    height:40px;
+    
+  }
+  
+  #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  [type="button"] {
+    width: 200px;
+    padding: 100px;
+    color: rgb(117, 116, 116);
+    height: 500px;
+    margin-top: 40px;
+  }
+  .SearchBar {
+    display: block;
+    margin: auto;
+    border: solid;
+    border-color: lightgrey;
+    border-radius: 2rem;
+    border-width: 1px;
+    padding: 10px;
+    width: 22.5%;
+  }
+  .Search {
+    border: none;
+    width: 290px;
+  }
+  .SearchBar:hover {
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  .footer-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .footer-right a {
+    font-family: Arial;
+    margin: 20px;
+  }
+  .footer-left {
+    display: flex;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  .footer-left a {
+    font-family: Arial;
+    margin: 20px;
+  }
+  .footer .footer-left .footer-right {
+    font-size: 14px;
+    background-color: black;
+    line-height:40px;
+  }
+  main div button
+  {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+      font-size: 14px;
+      margin: 11px 4px;
+      padding: 0 16px;
+      height: 36px;
+      min-width: 54px;
+  }
+  main div button:hover
+  {
+    border:3px solid black;
+  }
+  
+  
